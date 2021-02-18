@@ -1,0 +1,58 @@
+{
+  "name": "md-ui-doc",
+  "version": "1.0.1",
+  "description": "documentation for campus-ui.",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mint-ui/docs.git"
+  },
+  "homepage": "https://github.com/mint-ui/docs#readme",
+  "scripts": {
+    "serve": "vue-cli-service serve --mode development --inline --progress --hot",
+    "document": "vue-cli-service build --mode development && scp -r dist/* h5@192.168.4.61:/home/h5/webroot/mdComponent/dh5",
+    "test": "vue-cli-service serve --mode test",
+    "build": "vue-cli-service build --mode production",
+    "lint": "vue-cli-service lint",
+    "prettier": "prettier --config ./.prettierrc --write 'src/**/*.ts' 'src/**/*.vue' 'src/**/*.js' "
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "more-idea-ui": "^1.0.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.4.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.0",
+    "@vue/cli-plugin-eslint": "^4.5.0",
+    "@vue/cli-service": "^4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.2",
+    "vue-loader": "^15.9.3",
+    "vue-markdown-loader": "^2.4.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

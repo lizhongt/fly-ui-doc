@@ -1,0 +1,102 @@
+[
+  {
+    "title": "基础组件",
+    "list": [
+      {
+        "name": "Button",
+        "path": "/button"
+      },
+      {
+        "name": "TabBar",
+        "path": "/tabbar"
+      },
+      {
+        "name": "SearchBar",
+        "path": "/searchbar"
+      },
+      {
+        "name": "List",
+        "path": "/list"
+      },
+      {
+        "name": "Badge",
+        "path": "/badge"
+      },
+      {
+        "name": "Anchor",
+        "path": "/anchor"
+      },
+      {
+        "name": "Bar",
+        "path": "/bar"
+      },
+      {
+        "name": "Tip",
+        "path": "/tip"
+      }
+    ]
+  },
+  {
+    "title": "表单",
+    "list": [
+      {
+        "name": "CheckBox",
+        "path": "/checkbox"
+      },
+      {
+        "name": "Radio",
+        "path": "/radio"
+      },
+      {
+        "name": "Field",
+        "path": "/field"
+      },
+      {
+        "name": "Switch",
+        "path": "/switch"
+      },
+      {
+        "name": "Upload",
+        "path": "/upload"
+      }
+    ]
+  },
+  {
+    "title": "操作反馈",
+    "list": [
+      {
+        "name": "ActionSheet",
+        "path": "/actionsheet"
+      },
+      {
+        "name": "Dialog",
+        "path": "/dialog"
+      },
+      {
+        "name": "Toast",
+        "path": "/toast"
+      },
+      {
+        "name": "Picker",
+        "path": "/picker"
+      },
+      {
+        "name": "Swiper",
+        "path": "/swiper"
+      },
+      {
+        "name": "Scroll",
+        "path": "/scroll"
+      }
+    ]
+  },
+  {
+    "title": "业务组件",
+    "list": [
+      {
+        "name": "Calendar",
+        "path": "/calendar"
+      }
+    ]
+  }
+]
